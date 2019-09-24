@@ -23,7 +23,7 @@ favicon: /img/favicon.ico
 headerBg: /img/banner.jpg
 
 # 动态定义title
-#title_change:
+title_change:
   #normal: (つェ⊂)咦!又好了!     #页面获得焦点时显示(短暂存在)
   #leave: 死鬼去哪里了！         #页面失去焦点后显示
 
@@ -40,7 +40,7 @@ daovoice:
 # 主页文章排序方式
 ## true 按照文章更新时间排序
 ## false 按照文章创建时间排序
-articleSort: false
+articleSort: true
 
 # 站浏览数统计
 visit_counter: 
@@ -63,14 +63,14 @@ avatar_link: / #默认为主页
 brand: /img/brand.jpg
 
 # 电子邮件
-email: 277133779@qq.com
+email: 534803527@qq.com
 
 # 电子邮件下方的链接图标
 ## 新连接规则[name]: url | icon
 ## 使用fontawesome图标，只需要写图标名。github -> icon-github | fa-github
 ## http://http://fontawesome.dashgame.com/
 menu_link: 
-  github: https://github.com/codefine | github
+  github: https://github.com/yourhug/ | github
 
 # 添加新菜单项遵循以下规则
 ## menu:
@@ -81,29 +81,29 @@ menu_link:
 ##    target: _blank    [必要][不渲染] 是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: HOME
+    text: 主页
     url: /
     icon: home
   th-list:
-    text: CATEGORIES
+    text: 分类
     url: /categories
     icon: th-list
   tags:
-    text: TAGS
+    text: 标签
     url: /tags
     icon: tags
   archives:
-    text: ARCHIVES
+    text: 归档
     url: /archives
     icon: archives
-  #about:
-    #text: ABOUT
-    #url: /about
-    #icon: user
-  demo:
-    text: CUSTOM
-    url: /custom
-    icon: plus-square
+  about:
+    text: 关于
+    url: /about
+    icon: user
+  #demo:
+    #text: CUSTOM
+    #url: /custom
+    #icon: plus-square
   #github:
     #url: https://github.com/codefine
     #target: _blank
@@ -112,7 +112,7 @@ menu:
     #url: http://www.weibo.com/codefine
     #target: _blank
 
-# 进入文章时自动隐藏
+# 进入文章时自动隐藏(menu)
 auto_hide: false
 
 ##############################################################################################################################
@@ -139,9 +139,9 @@ top_icon: true
 # 页面标题
 ## 标签页 / 分类页 / 归档页的标题只能在这里设置
 ## 其他自定义页面标题在页面markdown文件的title中设置
-tags_title: Tags              #标签页
-categories_title: Categories  #分类页
-archives_title: Archives      #归档页
+tags_title: 标签              #标签页
+categories_title: 分类  #分类页
+archives_title: 归档      #归档页
 
 # 主页文章摘要缩略图
 defaultthumb: true
@@ -202,7 +202,7 @@ footer_fixation: false
 # 友情链接
 blogroll:
   item1:
-    name: HOME
+    name: lujingtao
     url: https://www.lujingtao.com
   #item2:
     #name: gitee
@@ -212,7 +212,7 @@ blogroll:
     #url: https://www.coding.net
 
 # 版权起始年份
-since_year: 2017
+since_year: 2019
 
 # icp备案号
 ## 例如ICP_license: 京ICP备123456号
@@ -237,7 +237,7 @@ hosted: false
 local_search: true
 
 # 百度统计
-baidu_tongji: #appid
+baidu_tongji: 9c9d33f515b81a03ac4e6d72f6ef1e85 #appid
 
 # gitment评论系统
 ## https://github.com/imsun/gitment
