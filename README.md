@@ -1,4 +1,4 @@
-hexo-theme-mellow
+参考来自于[hexo-theme-mellow](https://github.com/codefine/hexo-theme-mellow/)
 =================
 [![](https://img.shields.io/badge/release-v1.4.4-blue.svg?style=flat-square)](https://github.com/codefine/hexo-theme-mellow/releases)
 [![](https://img.shields.io/badge/document-CN-green.svg?style=flat-square)](https://github.com/codefine/hexo-theme-mellow/wiki)
